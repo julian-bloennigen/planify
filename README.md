@@ -1,9 +1,10 @@
-# Planify 
-**Webbasierte Anwendung zur Planung und Organisation von Veranstaltungen**
+# Planify
+
+## Webbasierte Anwendung zur Planung und Organisation von Veranstaltungen
 
 Autoren: Marius Gutschalk, Nils Beck, Julian Blönnigen, Lasse Schillinger
 
-Google Drive: https://drive.google.com/drive/folders/18l05wbNOK7Yukb00bOl6CF8HusI97xQM?usp=drive_link
+Google Drive: <https://drive.google.com/drive/folders/18l05wbNOK7Yukb00bOl6CF8HusI97xQM?usp=drive_link>
 
 ---
 
@@ -13,6 +14,7 @@ Ziel des Projekts **Planify** ist die Entwicklung einer webbasierten Anwendung, 
 Das System ermöglicht mehreren Benutzern, Events gemeinsam zu verwalten, Aufgaben zu verteilen und die Kommunikation innerhalb eines Teams zu strukturieren.  
 
 **Hauptziele:**
+
 - Effiziente Planung und Verwaltung von Events
 - Zentrale Übersicht über Aufgaben, Teilnehmer und Termine
 - Einfache Kommunikation zwischen Organisatoren und Teilnehmern
@@ -25,12 +27,14 @@ Das System ermöglicht mehreren Benutzern, Events gemeinsam zu verwalten, Aufgab
 **Planify** bietet im Gegensatz zu klassischen Tabellen oder Messenger-Gruppen eine **strukturierte, benutzerfreundliche Plattform**, die alle relevanten Informationen zu einem Event zentralisiert.  
 
 **Vorteile für Nutzer:**
+
 - Keine chaotischen WhatsApp-Nachrichten oder E-Mail-Ketten mehr  
 - Klare Aufgabenverteilung und Verantwortlichkeiten  
 - Jederzeit abrufbarer Eventstatus  
 - Bessere Nachvollziehbarkeit von Änderungen und Zuständigkeiten  
 
 **Vorteile für das Projektteam:**
+
 - Klare Architektur mit Trennung von Frontend, Backend und Datenbank  
 - Dokumentierbare Prozesse für Analyse, Design, Implementierung und Tests  
 - Gut skalierbare Basis für spätere Erweiterungen (z. B. Kalender-API, Benachrichtigungen)
@@ -54,7 +58,8 @@ Zur Erfolgsmessung werden folgende **Metriken** definiert:
 
 ## Rahmenbedingungen
 
-###  Standards für Produkte und Systeme
+### Standards für Produkte und Systeme
+
 - **Softwarearchitektur:** Client-Server-Modell (REST-API)
 - **Programmiersprachen:**  
   - Frontend: React (JavaScript/TypeScript)  
@@ -68,6 +73,7 @@ Zur Erfolgsmessung werden folgende **Metriken** definiert:
 ---
 
 ### Rechtliche Bestimmungen
+
 - **Datenschutz:** DSGVO-konforme Speicherung von Benutzerdaten  
   - Passwörter werden gehasht (z. B. bcrypt)  
   - Keine unnötige Speicherung personenbezogener Daten  
@@ -77,14 +83,17 @@ Zur Erfolgsmessung werden folgende **Metriken** definiert:
 ---
 
 ### Projekt- und Produktgegner
+
 - Konkurrenzprodukte wie Google Calendar oder Trello  
 
 ---
 
 ### Produktbudget
+
 Da es sich um ein Hochschulprojekt handelt, wird **kein externes Budget** benötigt.  
 Kosten fallen nur für:
-- Entwicklungsumgebung (lokal, kostenlos)  
+
+- Entwicklungsumgebung (lokal, kostenlos)
 - Optionale Hosting-Kosten (z. B. Render, Railway, Vercel – meist mit Free-Tier)  
 
 **Gesamtkosten:** < **50 €** (nur bei optionalem Hosting oder Domain)
@@ -92,6 +101,7 @@ Kosten fallen nur für:
 ---
 
 ### Zeitliche Rahmenbedingungen
+
 - **Projektlaufzeit:** 2 Semester / ca. **6 Monate**  
 - **Phasen:**
   1. Anforderungsanalyse (2 Wochen)  
@@ -121,12 +131,14 @@ Kosten fallen nur für:
 ## ToGo / NotToGo
 
 ### **ToGo:**
+
 - Anforderungen sind realistisch und klar definiert  
 - Team besitzt notwendige technische Kenntnisse  
 - Entwicklungsumgebung und Tools stehen fest  
 - Zeitrahmen und Dokumentationsplan vorhanden  
 
 ### **NotToGo:**
+
 - Kein funktionsfähiges Grundsystem nach der Hälfte der Projektzeit  
 - Teamkommunikation zusammengebrochen  
 - Anforderungen ändern sich fundamental  
