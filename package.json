@@ -5,8 +5,11 @@
     "lint": "pnpm -r lint",
     "test": "pnpm -r test",
     "test:ci": "pnpm -r test:ci",
+    "coverage:merge": "node scripts/merge-coverage.mjs",
     "build": "pnpm -r build",
+    "build:prod": "pnpm -C apps/frontend build && pnpm -C apps/backend build",
     "dev": "pnpm --parallel -C apps/backend dev & pnpm -C apps/frontend dev",
+    "start:prod": "pnpm -C apps/backend start:prod",
     "e2e": "pnpm -C e2e test",
     "e2e:ui": "pnpm -C e2e test:ui"
   },
@@ -26,12 +29,12 @@
     "globals": "^16.4.0",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.45.0",
-    "vite": "npm:rolldown-vite@7.1.14"
+    "vite": "^6.0.0"
   },
   "pnpm": {
-    "overrides": {
-      "vite": "npm:rolldown-vite@7.1.14"
-    }
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   },
   "packageManager": "pnpm@10.18.3"
 }
